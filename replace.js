@@ -7,10 +7,13 @@ var fs        = require('fs')
 
 var argv = Array.prototype.slice.call(process.argv, 2)
 
-if (argv.length < 2)
+if (argv.length < 2) {
   console.log([
       'USAGE: node replace.js [input CSV File] [output directory]'
   ].join('\n'))
+
+  process.exit(-1)
+}
 
 // Extract the interesting arguments from argv.
 var inputCSVFile    = argv[0]

@@ -1,0 +1,14 @@
+{
+  "name": "CSV-SVG-Replace-Script",
+  "version": "0.0.1",
+  "author": "Gabriel Lesperance <gabriel@wavo.me> (glesperance.com)",
+  "main": "replace.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "async": "git://github.com/glesperance/async.git",
+    "underscore": "~1.5.2",
+    "libxmljs": "~0.8.1"
+  }
+}
